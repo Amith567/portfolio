@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function MediaCard({img,title,description,code,link}) {
+export default function MediaCard({img,title,description,code,host}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -24,7 +24,7 @@ export default function MediaCard({img,title,description,code,link}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small"><a href={link}>visit</a></Button>
+        <Button size="small"><a href={host}>visit</a></Button>
         <Button size="small"><a href={code}>code</a></Button>
       </CardActions>
     </Card>

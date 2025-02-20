@@ -13,7 +13,7 @@ function Project(props) {
     title={Project.title}
     description={Project.description}
     code={Project.code}
-    link={Project.link}
+    host={Project.host}
     />
 ))}
 
