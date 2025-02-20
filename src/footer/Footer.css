@@ -1,0 +1,41 @@
+.footer-content{
+    background-color: #03dac6;
+    width: 100%;
+    display: flex;align-items: center;justify-content: center;flex-direction: row;
+}
+.footer-left{
+    padding: 2rem;
+    width: 50%;
+    display: flex;align-items: center;justify-content: center;
+    
+}
+.footer-right{
+    width: 50%;
+    text-align: left;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.footer-left iframe{
+    width: 80%;
+}
+.footer-end{
+    background-color: #018786;
+    padding: 1rem;
+    text-align: center;
+}
+.footer-container{
+    display: flex;flex-direction: column;
+}
+.icon{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;align-items: center;justify-content: space-evenly;
+}
+#contact{
+    margin: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.icon a{
+    font-size: 2rem;
+}

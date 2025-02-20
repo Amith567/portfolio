@@ -14,7 +14,7 @@ const Intro = () => {
         </p>
         <div className="i-btn">
           <button className="i-btn-works"><a href="#project">works</a></button>
-          <button className="i-btn-contact">contact</button>
+          <button className="i-btn-contact"><a href="#contact">contact</a></button>
         </div>
       </div>
       <div className="i-right">
